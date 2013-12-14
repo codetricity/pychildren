@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PyChildren - Teaching Children to Program in Python
 ===================================================
 
@@ -79,3 +80,9 @@ Many different paths.  Pick your own
 
 Except for Swarm, there are video tutorials for all the lesson blocks. Each of the eleven lesson blocks above is more than one day of lessons. Assuming one class per week, the JSON loader lesson could take months to complete.
 
+=======
+pychildren
+==========
+
+Code for the teaching children Python programming.  http://pychildren.blogspot.com
+>>>>>>> 0f9ea0c9f8ec7b587539422aed590b629eda7496
