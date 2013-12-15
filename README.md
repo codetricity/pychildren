@@ -23,7 +23,7 @@ program.  Choose your own path.
 Change in Direction
 -------------------
 When my son was 12, he broke the screen of his cheap mobile phone 
-during cross country.  I let suffer with his broken screen for a year
+during cross country.  I let him suffer with his broken screen for a year
 and then finally bought him a used Android phone on eBay for $40,
 including shipping.  That first phone was a LG Optimus S with Android
 2.2.  It was the first Android phone in our family.  My wife and I
