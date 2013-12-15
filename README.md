@@ -63,7 +63,7 @@ Six modules that must be done in sequence.
 ###Group 2 
 Two suggested modules are 2D scroller movement of the ground/background
 and character animation of the running man.
-![alt text](img/2d_scroller_kai.png "Scroller at Age 13)
+![alt text](img/2d_scroller_kai.png "Scroller at Age 13")
 
 1. 2D ground scroller basic
 
