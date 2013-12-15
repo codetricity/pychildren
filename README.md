@@ -72,6 +72,8 @@ and character animation of the running man.
 ### Group 3
 Many different paths.  Pick your own
 
+![alt text](img/swarm_2d_map.png "Swarm written at age 13")
+
 1. 2D Tile map basic. No loader. Map doesn't scroll (see Swarm game)
 
 2. Tiled 2D tile map creation in JSON format
