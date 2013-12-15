@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PyChildren - Teaching Children to Program in Python
 ===================================================
 
@@ -64,6 +63,7 @@ Six modules that must be done in sequence.
 ###Group 2 
 Two suggested modules are 2D scroller movement of the ground/background
 and character animation of the running man.
+![alt text](img/2d_scroller_kai.png "Scroller at Age 13)
 
 1. 2D ground scroller basic
 
@@ -80,9 +80,11 @@ Many different paths.  Pick your own
 
 Except for Swarm, there are video tutorials for all the lesson blocks. Each of the eleven lesson blocks above is more than one day of lessons. Assuming one class per week, the JSON loader lesson could take months to complete.
 
-=======
-pychildren
-==========
 
-Code for the teaching children Python programming.  http://pychildren.blogspot.com
->>>>>>> 0f9ea0c9f8ec7b587539422aed590b629eda7496
+PyChildren - Oda Path Age 11 - 14
+---------------------------------
+
+![alt text](img/path_age_11_to_14.png "Oda Path - Ages 11 - 14")
+
+Blog for teaching children Python programming.  http://pychildren.blogspot.com
+
