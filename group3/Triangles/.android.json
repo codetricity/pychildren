@@ -1,0 +1,1 @@
+{"layout": "external", "orientation": "landscape", "package": "com.kaiyotesof.evade", "include_pil": false, "name": "Evade", "icon_name": "Evade", "version": "1", "permissions": ["WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"], "include_sqlite": false, "numeric_version": "1"}

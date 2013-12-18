@@ -1,0 +1,1 @@
+{"layout": "external", "orientation": "landscape", "package": "com.kaiyotesof.paint", "include_pil": false, "name": "Paint", "icon_name": "Paint", "version": "1", "permissions": ["INTERNET", "VIBRATE"], "include_sqlite": false, "numeric_version": "1"}

@@ -1,0 +1,88 @@
+import pygame, sys
+
+def scroll(x, direction):
+    if direction == "left":
+        x = x - 3
+    elif direction == "right":
+        x = x + 3
+    return (x)
+
+def jump_update(y, jump, number):
+    if number == 1:
+        if jump == "up" and y < 150:
+            jump = "down"
+    elif number == 2:
+        if jump == "up" and y < 100:
+            jump = "down"
+    if jump == "down" and y >= 250:
+        jump = "stop"
+        y = 250
+        number = 0
+    if jump == "up":
+        y = y - 5
+    elif jump == "down":
+        y = y + 5
+    return(y, jump, number)
+
+def nextLevel():
+    RED= (255, 0, 0)
+    lev_font = pygame.font.Font("basefont.ttf", 38)
+    congrats = lev_font.render("Moving to", True, RED)
+    level_surface = lev_font.render("Next Level", True, RED)
+    surface = pygame.Surface((480, 320))
+    surface.fill((0,0,0))
+    surface.blit(congrats, (50, 50))
+    surface.blit(level_surface, (50, 200))
+    return (surface)
+
+pygame.init()
+screen = pygame.display.set_mode((480, 320))
+clock = pygame.time.Clock()
+FPS = 30
+
+background = pygame.image.load("town_pencil_blur.png")
+back_rect = background.get_rect()
+max_x = back_rect.right - 480
+print (max_x)
+player = pygame.image.load("zombie.png")
+backsurf = pygame.Surface((480, 320))
+
+x = 0
+player_y = 250
+
+direction = "right"
+jump = "stop"
+jump_number = 0
+gameOver = False
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RIGHT:
+                direction = "right"
+            if event.key == pygame.K_LEFT:
+                direction = "left"
+            if jump != "up" or jump != "down":
+                if event.key == pygame.K_SPACE:
+                    if jump_number < 2:
+                        jump = "up"
+                        jump_number += 1
+                        print jump_number
+        ## elif event.type == pygame.KEYUP:
+        ##     direction = "stop"
+    if x > max_x:
+        gameOver = True
+    if gameOver:
+        nextScreen = nextLevel()
+        screen.blit(nextScreen, (0, 0))
+    elif not gameOver:
+        x = scroll(x, direction)
+        backsurf.blit(background, (0,0), (x, 0, 480 + x, 320))            
+        screen.blit(backsurf, (0,0))
+        player_y, jump, jump_number = jump_update(player_y, jump, jump_number)
+        screen.blit(player, (180, player_y))
+    clock.tick(FPS)
+    pygame.display.update()
