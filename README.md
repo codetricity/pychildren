@@ -90,3 +90,34 @@ PyChildren - Oda Path Age 11 - 14
 
 Blog for teaching children Python programming.  http://pychildren.blogspot.com
 
+
+
+* [PyChildren github Code Repository of Lessons](https://github.com/codetricity/pychildren)
+* [PyChildren YouTube Channel with tutorials](https://www.youtube.com/user/surfkidsdad/) 
+* [PyChildren Blog](http://pychildren.blogspot.com)
+
+
+## Tutorials
+### Lesson 1, The Blank Screen
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=FoBKQO7h9gk" 
+target="_blank"><img src="http://img.youtube.com/vi/FoBKQO7h9gk/0.jpg" 
+alt="Lesson 1, the Blank Screen" width="240" height="180" border="10" /></a>
+
+### Lesson 2, The Stationary Square
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=pd7ulBItcq4" 
+target="_blank"><img src="http://img.youtube.com/vi/pd7ulBItcq4/0.jpg" 
+alt="Lesson 2, The Stationary Square" width="240" height="180" border="10" /></a>
+
+### Lesson 3, The Moving Square
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=cKqUyV5q0mU" 
+target="_blank"><img src="http://img.youtube.com/vi/cKqUyV5q0mU/0.jpg" 
+alt="Lesson 3, The Moving Square" width="240" height="180" border="10" /></a>
+
+### Lesson 4, Touchscreen Movement
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=gZxQa0aQ5Do" 
+target="_blank"><img src="http://img.youtube.com/vi/gZxQa0aQ5Do/0.jpg" 
+alt="Lesson 4, Touchscreen Movement" width="240" height="180" border="10" /></a>
