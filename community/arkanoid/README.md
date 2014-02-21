@@ -1,11 +1,9 @@
 # Arkanoid 
 ## by Philippe Near South Africa
 
-Click on image below to play video.
 
-<a href="http://youtu.be/D1gOMPkzKSA">
-   <img src = "extra/arkanoid_screenshot.jpg">
-</a>
+ <img src = "extra/arkanoid_screenshot.jpg">
+
 
 [Download the Android Package](extra/Arkanoid-1-release.apk)
 
