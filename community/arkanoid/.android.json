@@ -1,0 +1,1 @@
+{"layout": "internal", "orientation": "landscape", "package": "com.pychildren.arkanoid", "include_pil": false, "name": "Arkanoid", "icon_name": "Arkanoid", "version": "1", "permissions": ["INTERNET", "VIBRATE"], "include_sqlite": false, "numeric_version": "1"}
