@@ -1,5 +1,8 @@
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/FoBKQO7h9gk" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=FoBKQO7h9gk" 
+target="_blank"><img src="http://img.youtube.com/vi/FoBKQO7h9gk/0.jpg" 
+alt="Lesson 1, the Blank Screen" width="240" height="180" border="10" /></a>
+
 
 # Lesson 1, The Blank Screen
 Watch the video.  http://www.youtube.com/watch?v=FoBKQO7h9gk
