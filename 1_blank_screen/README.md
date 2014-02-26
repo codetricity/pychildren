@@ -15,10 +15,12 @@ the code.
 
 Run it. 
 
-Repeat five times, starting with a blank screen.
+Repeat five times, starting with a blank text editor or IDE.
 
 Young children at age 9 should do one drill, writing the code in
-one time per class.
+one time per class.  One drill comprises typing the code in one time.
+For each lesson, I suggest 5 drills.  The child can alter the
+drill by adding in things like `pygame.display.set_caption("their name")`
 
 Older students can run a few drills in each class.
 
