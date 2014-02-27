@@ -16,3 +16,8 @@ This lesson requires:
 
 It should run on Android with minor modifications.
 
+Concepts covered
+
+- write to file
+- event handling
+- simple classes and functions
